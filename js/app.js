@@ -36,6 +36,4 @@ function whowins(){
             document.getElementById("scoreboard").innerHTML=playerscore +":"+compscore;
             compmove= Math.floor(Math.random()*3)+1;
    }
-
-
 }

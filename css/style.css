@@ -1,52 +1,35 @@
-body{
-	background-color: rgb(59, 59, 59);
-	font-family: 'Oswald', sans-serif;
+*{font-family: 'Oswald', sans-serif;}
+
+body{background-color: rgb(109, 89, 89);}
+
+h1{text-align: center;
+font-size: 40px;
+border: 2px solid rgb(100, 41, 41);
+background-color: rgb(212, 192, 192);
+margin-top: 0px;
 }
 
-h1{font-size: 60px;
-text-align: center;
-margin:  0;}
-
-#title{
-	width: 100%;
-	height: 80px;
-	background-color: rgb(228, 228, 228);
-	border: 4px solid rgb(88, 0, 0);
-	padding-bottom: 20px;
-	margin: 0 auto;
-}
-
-#whowins{
-	font-size: 30px;
-	color: white;
-	text-align: center;
-}
+#whowins{text-align: center;
+font-size: 30px;}
 
 #result{
-	display: flex;
-	width: 20%;
 	margin: auto;
-	margin-top: 50px;
-	font-size: 40px;
-	color: white;
+	font-size: 50px;
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
 }
 
 #scoreboard{
-	width: 30%;
-	margin: auto;
-	border: 4px solid rgb(88, 0, 0);
-	text-align: center;}
-
-img{
-	width: 25%;
-	height: 100%;
-	cursor: pointer;
+	border: 4px solid brown;
+	width: 90px;
+	text-align: center;
 }
 
 #choose{
-	margin: auto;
-	width: 30%;
-	display: flex;
-	justify-content: space-between;
-	height: 170px;
+	text-align: center;}
+
+img{
+	width: 10%;
+	height: auto;
 }
