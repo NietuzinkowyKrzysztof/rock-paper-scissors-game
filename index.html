@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Paper, rock, scissors</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <meta charset="utf-8" /> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div id="title">
+            <h1>Paper, <span style="color: brown;">rock,</span> <span style="color: red;">scissors</span></h1>
+        </div>
+
+        <div id="whowins">
+            Tutaj będzie pokazane kto wygrał aktualną rundę
+        </div>
+        <div id="result">
+            <div id="you">YOU</div>
+                <div id="scoreboard"></div>
+            <div id="Computer">COMP</div>
+    </div>
+<br><br>
+    <div id="choose">
+        <img src="img/rock.png" id="rock" onclick="rock()"/>
+        <img src="img/scissors.png" id="scissors" onclick="scissors()"/>
+        <img src="img/paper.png" id="paper" onclick="paper()"/>
+    </div>
+    
+        <script src="js/app.js"></script>
+    </body>
+</html>
